@@ -1,4 +1,4 @@
-import {React, useState} from "react";
+import { React, useState } from "react";
 import { toast } from "react-toastify";
 import axios from "axios";
 
@@ -19,7 +19,7 @@ function ContactUs() {
 
     try {
       const response = await axios.post(
-        "http://localhost:3000/api/user/newUser",
+        "https://owner-backend.onrender.com/api/user/newUser",
         data,
         {
           headers: {

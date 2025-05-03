@@ -69,7 +69,7 @@ function HomePage() {
       console.log("Submitting form data:", Object.fromEntries(formData));
 
       const response = await axios.post(
-        "http://localhost:5001/api/user/newProject",
+        "https://owner-backend.onrender.com/api/user/newProject",
         formData,
         {
           headers: {
