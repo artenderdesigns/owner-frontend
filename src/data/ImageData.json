@@ -1,0 +1,21 @@
+
+{
+  "slides": [
+    {
+      "src": "./HomeBanner.jpg",
+      "alt": "img1"
+    },
+    {
+      "src": "./DSC_3049-HDR.jpg",
+      "alt": "img2"
+    },
+    {
+      "src": "./DSC_3067-HDR.jpg",
+      "alt": "img3"
+    },
+    {
+      "src": "./DSC_3077-HDR.jpg",
+      "alt": "img4"
+    }
+  ]
+}
